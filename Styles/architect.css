@@ -152,18 +152,98 @@ body{
 
 .enjoy{
 
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 7.5rem;
 }
 .enjoy-container{
     display: flex;
+    gap: 7rem;
 }
+.enjoy-content{
+    max-width: 586px;
+    margin: 0 auto;
+}
+.main-1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+.main-2{
+    width: 5px;
+    height: 106px;
+    margin-top: 50px;
+    background-color: #ff900e;
+}
+.enjoy-main-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+    /* margin-top: 0px; */
+
+}
+.enjoy-main-description{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: #727272;
+}
+.enjoy-main-div{}
+.enjoy-div{
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 30px #727272;
+    padding: 1.9rem 2.2rem ;
+
+}
+.enjoy-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #131313;
+}
+.enjoy-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.enjoy-image{
+   
+}
+.enjoy-image>img{
+     width: 100%;
+}
+
+/* enjoy button */
+#enjoy-btn{
+    padding: 1.8rem 1.9rem;
+    border-radius: 0.5rem;
+    margin-left: -4.6rem;
+    margin-top: -6.2rem; 
+    
+}
+.btn-enjoy{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    color: #ffffff;
+}
+.btn-enjoy-des{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #ffffff;
+}
+
+
 
 /* Media Query for Responsive  */
 
 @media screen and (max-width: 576px) {
     .nav-list{
         flex-wrap: wrap;
+    }
+    .nav-content{
+        flex-direction: column;
     }
 
     /* Feature Section responsive */
@@ -172,4 +252,13 @@ body{
         flex-direction: column;
     }
     
+    /* Feature section of Enjoy for resposive */
+    .enjoy-container{
+        flex-direction: column;
+    }
+    #enjoy-btn{
+        margin-left: 2rem;
+        margin-top: -2.5rem;
+        
+    }
 }
