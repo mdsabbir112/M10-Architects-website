@@ -84,6 +84,7 @@ body{
     font-weight: 600;
     margin-top: 2rem;
     border: none;
+    cursor: pointer;
 }
 .banner-image{
     border-radius: 0.5rem;
@@ -145,6 +146,17 @@ body{
     font-size: 1rem;
     line-height: 1.7rem;
     color: #727272;
+}
+
+/* Enjoy section */
+
+.enjoy{
+
+    width: 1440px;
+    margin: 0 auto;
+}
+.enjoy-container{
+    display: flex;
 }
 
 /* Media Query for Responsive  */
