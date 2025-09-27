@@ -242,6 +242,7 @@ body{
 .facts{
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 10rem;
 }
 .fact-container{
     margin-bottom: 6rem;
@@ -261,6 +262,7 @@ body{
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
+    gap: 0.5rem;
 }
 .fc{
     border-radius: 0.5rem;
@@ -282,6 +284,17 @@ body{
     font-weight: 600;
     color: #727272;
 }
+
+/* Sponsors section */
+
+.sponsor-main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+}
+.sponsor-title{}
+.sponsor-description{}
+.sponsor-image{}
 
 
 
