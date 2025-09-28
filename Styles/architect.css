@@ -287,15 +287,55 @@ body{
 
 /* Sponsors section */
 
-.sponsor-main{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: space-between;
+.sponsor{
+    max-width: 1440px;
+   margin: 0 auto;
 }
-.sponsor-title{}
-.sponsor-description{}
-.sponsor-image{}
+.sponsor-main{
+   max-width: 542px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+.sponsor-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.sponsor-description{
+        font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #727272;
+}
+.sponsor-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    filter: grayscale(100%);
+    margin-bottom: 8rem;
+}
 
+/* footer section */
+.footer-main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.footer-container{
+    height: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color:  rgba(255,144,14,0.1);
+}
+.footer-des{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #424242;
+}
 
 
 
@@ -325,5 +365,16 @@ body{
         margin-left: 2rem;
         margin-top: -2.5rem;
         
+    }
+
+    /* Sponsor Section */
+    .sponsor-image{
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+/* Footer Section */
+    .footer-container{
+        width: 100%;
+        text-align: center;
     }
 }
